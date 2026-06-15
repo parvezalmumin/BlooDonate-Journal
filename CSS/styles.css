@@ -3,20 +3,31 @@
     padding: 0%;
 }
 
-
-nav{
-    padding: 8px;
-    display: flex;
-    justify-content: space-evenly;
-}
-nav a {
-    text-decoration: none;
-    color: beige;
-   
-}
-
 header{
     background-color: brown;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+#logo img{
+    height: 50px;
+    width: auto;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: beige;
+    font-size: 18px;
 }
 
 body {
