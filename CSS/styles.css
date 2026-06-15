@@ -6,10 +6,11 @@
 
 nav{
     padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
 }
 nav a {
     text-decoration: none;
-    margin-left: 190px;
     color: beige;
    
 }
