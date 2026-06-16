@@ -33,3 +33,15 @@ nav{
 body {
     background-color: rgb(178, 211, 248);
 }
+
+.DonorImage{
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.DonorImage img {
+    height: 250px;
+    width: 250px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
