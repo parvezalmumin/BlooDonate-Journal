@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header{
     background-color: brown;
 }
@@ -76,5 +80,28 @@ body {
 
 }
 
+/* About Me Section */
 
+#About_Me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+
+#About_Me img {
+    height: 220px;
+    width: 220px;
+    border: 2px solid rgb(92, 16, 16);
+    border-radius: 50%;
+    
+}
+
+
+#About_Me p {
+    margin-top: 10px;
+}
 
