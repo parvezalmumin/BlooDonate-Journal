@@ -56,3 +56,25 @@ body {
         margin-top: 10px;
     }
 }
+
+/*Hero Section*/
+.banner{
+    height: 86vh;
+    background-image: url(../Assets/images/banner.jpg);
+    background-size: cover;
+   background-position: center;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+   color: rgb(255, 251, 0);
+   text-align: center;
+   padding: 20px;
+
+}
+
+
+
