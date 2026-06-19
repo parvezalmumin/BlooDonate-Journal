@@ -74,9 +74,12 @@ body {
    align-items: center;
 
 
-   color: rgb(255, 251, 0);
+   color: rgb(102, 16, 16);
    text-align: center;
    padding: 20px;
+   font-size: larger;
+   font-weight: 300;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
