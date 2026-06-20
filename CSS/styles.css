@@ -126,7 +126,15 @@ body {
 }
 
 /*  Card Design */
+/*  Donor Dashboard */
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+/*Blood Group Card*/
 .cardBloodGroup {
     height: 340px;
     width: 330px;
@@ -154,3 +162,82 @@ body {
     transform: scale(1.1) translateY(10px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
+
+/*First Time Donation Card*/
+.cardFirstTimeDonation {
+    height: 340px;
+    width: 330px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 13px;
+    background-color: white;
+    border: 2px solid rgb(61, 3, 3);
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgpa(0,0,0,1);
+    transition: 0.5s;
+}
+
+.cardFirstTimeDonation img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.cardFirstTimeDonation button {
+    border: 2px solid rgb(185, 5, 65);
+    border-radius: 15%;
+    background-color: palevioletred;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.cardFirstTimeDonation button:hover {
+    transform: scale(1.1);
+}
+
+.cardFirstTimeDonation:hover{
+    transform: scale(1.1) translateY(10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+/*Last Donated Card*/
+.cardLastDonated {
+    height: 340px;
+    width: 330px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 13px;
+    background-color: white;
+    border: 2px solid rgb(61, 3, 3);
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgpa(0,0,0,1);
+    transition: 0.5s;
+}
+
+.cardLastDonated img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.cardLastDonated button {
+    border: 2px solid rgb(185, 5, 65);
+    border-radius: 15%;
+    background-color: palevioletred;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.cardLastDonated button:hover {
+    transform: scale(1.1);
+}
+
+.cardLastDonated:hover{
+    transform: scale(1.1) translateY(10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
