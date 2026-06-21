@@ -1,84 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlooDonate Journal</title>
-    <link rel="stylesheet" href="../CSS/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+  </head>
+  <body id="top">
     <!-- Header Section-->
     <header>
-    <!--Navbar-->
-        <nav>
-            <div id="logo">
-                 <img src="../Assets/images/BlooDonateLogo_WithoutBG.png" alt="BlooDONATE lOGO">  
-            </div>
+      <!--Navbar-->
+      <nav>
+        <div id="logo">
+          <img
+            src="../Assets/images/BlooDonateLogo_WithoutBG.png"
+            alt="BlooDONATE lOGO"
+          />
+        </div>
 
-            <div class="nav-links">
-                 <a href="#About_Me">About Me</a>
-                 <a href="#Donor_Dashboard">Donor Dashboard</a>
-                <a href="#BloodGroup">Blood Group</a>
-                 <a href="#FirstTimeDonation">First Time Donation</a>
-                <a href="#LastDonated">Last Donated</a>
-                 <a href="#">Total Donated</a>
-                 <a href="#">Donation History</a>
-                 <a href="#">Experiences</a>
-                 <a href="#">Contact</a>
-            </div>
-         </nav>
-
+        <div class="nav-links">
+          <a href="#About_Me">About Me</a>
+          <a href="#Donor_Dashboard">Donor Dashboard</a>
+          <a href="#BloodGroup">Blood Group</a>
+          <a href="#FirstTimeDonation">First Time Donation</a>
+          <a href="#LastDonated">Last Donated</a>
+          <a href="#">Total Donated</a>
+          <a href="#">Donation History</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
     </header>
 
     <!--Main Section-->
     <main>
-
-     <!--Hero Section-->
-        <div class="banner">
+      <!--Hero Section-->
+      <div class="banner">
         <h1>Welcome to BlooDonate</h1>
         <h2>Where I Track My Blood Donattion Experiences</h2>
         <h3>Every donation is a chance to save a life.</h3>
-        </div>
+      </div>
 
-        <!--About Me Section-->
-        <section id="About_Me">
-        <img src="../Assets/images/myPhoto.jpg">
-        <p>Hi, I'm <b>Parvez Al Mumin</b>. I believe that a small act can make a big difference. This website documents my blood donation journey and experiences.  Every donation represents an opportunity to help someone in need and this portfolio serves as a reminder of that commitment. </p>
+      <!--About Me Section-->
+      <section id="About_Me">
+        <img src="../Assets/images/myPhoto.jpg" />
+        <p>
+          Hi, I'm <b>Parvez Al Mumin</b>. I believe that a small act can make a
+          big difference. This website documents my blood donation journey and
+          experiences. Every donation represents an opportunity to help someone
+          in need and this portfolio serves as a reminder of that commitment.
+        </p>
         <p></p>
-        </section>
-        
-        <!--Donor Dashboard-->
-        <div class ="Donor_Dashboard" id="Donor_Dashboard">
-            <h1>Donor Dashboard</h1>
+      </section>
 
-            <!--Blood Group-->
-            <div class="container">
-                <div class="cardBloodGroup" id="BloodGroup">
-                    <img src="../Assets/images/a-positive-blood-type-icon.png" alt="A positive Blood Icon">
-                    <h3>My Blood Group is A+</h3>
-                    <p>"A+ donors can donate blood to A+ and AB+ recipients and can receive blood from A+, A-, O+ and O- donors."</p>
-                </div>
-                
-                 <!--First Time Donation-->
-                 <div class="cardFirstTimeDonation" id="FirstTimeDonation">
-                   <img src="../Assets/images/Blood Donation Pictures/FirstTimeBloodDonation.jpeg" alt="My photo while donating blood for first time">
-                    <h3>I first donated blood on January 29,2024</h3>
-                    <button>See Details</button>
-                </div>
+      <!--Donor Dashboard-->
+      <div class="DashboardBG" id="Donor_Dashboard">
+        <h1 class="DashboardTitle">Donor Dashboard</h1>
 
-                 <!--Last Donated-->
-                   <div class="cardLastDonated" id="LastDonated">
-                   <img src="../Assets/images/Blood Donation Pictures/SecondTimeBloodDonation.jpeg" alt="My photo while donating blood for second time">
-                    <h3>I last donated blood on June 10,2026</h3>
-                    <button>See Details</button>
-                </div>
+        <!--Blood Group-->
+        <div class="container">
+          <div class="cardBloodGroup" id="BloodGroup">
+            <img
+              src="../Assets/images/a-positive-blood-type-icon.png"
+              alt="A positive Blood Icon"
+            />
+            <h3>My Blood Group is A+</h3>
+            <p>
+              "A+ donors can donate blood to A+ and AB+ recipients and can
+              receive blood from A+, A-, O+ and O- donors."
+            </p>
+          </div>
 
-            </div>
+          <!--First Time Donation-->
+          <div class="cardFirstTimeDonation">
+            <img
+              src="../Assets/images/Blood Donation Pictures/FirstTimeBloodDonation.jpeg"
+              alt="My photo while donating blood for first time"
+            />
+            <h3>I first donated blood on January 29, 2024</h3>
+            <button>See Details</button>
+          </div>
 
+          <!--Last Donated-->
+          <div class="cardLastDonated" id="LastDonated">
+            <img
+              src="../Assets/images/Blood Donation Pictures/SecondTimeBloodDonation.jpeg"
+              alt="My photo while donating blood for second time"
+            />
+            <h3>I last donated blood on June 10, 2026</h3>
+            <button>See Details</button>
+          </div>
+
+          <!--Total Donated-->
+          <div class="cardTotalDonated">
+            <h1>I total donated blood for <b>two</b> times</h1>
+            <button>See Details</button>
+          </div>
         </div>
+      </div>
 
-
-        <br> <br> <br> <br><br> <br><br> <br>
+      <!--First Time Donation Section-->
+      <div class="FirstTimeDonation" id="FirstTimeDonation">
+        <img
+          src="../Assets/images/Blood Donation Pictures/FirstTimeBloodDonation.jpeg"
+          alt="My photo while donating blood for first time"
+        />
+        <div class="card-content">
+          <h1>Blood Donation For the first time</h1>
+          <h4>Date: 29 January, 2024</h4>
+          <h4>Place: Gazipur Adhunik Hospital & Diagnostic Centre</h4>
+          <article>
+            <b>Experience:</b>
+            The feeling of donating blood for the first time was truly
+            different. When I went to donate blood, I did not tell anyone at
+            home because my mother is very afraid of needles. In fact, she was
+            so scared that she did not even want to check her own blood group.
+            Looking back, I probably should have informed my family before
+            going, although, Alhamdulillah, everything went smoothly and there
+            were no problems. After returning home, I messaged my sister and
+            told her that I had donated blood that day and asked her not to tell
+            anyone at home. Unfortunately, she ended up telling them anyway. I
+            first learned about the blood donation request through a Messenger
+            group. The person who shared the information was a friend of someone
+            from our area and actually lived in our building. After I donated
+            blood, he insisted on giving me some money for snacks. I did not
+            want to accept it, but he was so persistent that I could not refuse.
+            I felt quite embarrassed. The patient was undergoing some kind of
+            surgery. I sincerely hope that he is doing well now.
+          </article>
+        </div>
+        <div>
+          <a href="#top" id="back-to-the-top">Back to top</a>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
